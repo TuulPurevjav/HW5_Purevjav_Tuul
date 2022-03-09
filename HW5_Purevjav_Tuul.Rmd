@@ -9,7 +9,13 @@ knit: (function(input_file, encoding) {
  encoding=encoding,
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 ---
-We're planning to move to Washington state this summer.  The approximate area we'd like to move to is in King county.  We have two school-age kids and choosing a school for them is our starting point.  My Shiny dashboard provides information about schools in that area.  It allows the user to enter a city in King county as an input and see the information of all grade schools in that city as an output in a table. It also has an interactive map that shows all the schools in the county.
+We're planning to move to Washington state this summer.  
+The approximate area we'd like to move to is in King county.  
+We have two school-age kids and choosing a school for them is our starting point.  
+My Shiny dashboard provides information about schools in that area. 
+It allows the user to enter a city in King county as an input and see the information 
+of all grade schools in that city as an output in a table. It also has an interactive 
+map that shows all the schools in the county.
 
 The data source is at the following links:
 https://geo.wa.gov/datasets/k12wa::washington-state-public-schools/about
